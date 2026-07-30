@@ -1,0 +1,18 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+python-multipart>=0.0.9
+
+# Vector DB
+qdrant-client>=1.8.0
+
+# LLM & Embeddings
+google-generativeai>=0.4.0
+
+# PDF Parsing
+pypdf>=4.1.0
+pdfplumber>=0.11.0
+
+# Utilities
+python-dotenv>=1.0.1
