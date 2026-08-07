@@ -4,6 +4,7 @@ A Retrieval-Augmented Generation (RAG) platform built for the **AI & Generative 
 
 The AI Study Companion allows users to upload course materials (syllabi, lecture notes, textbook excerpts), automatically chunks and converts the text into vector embeddings, stores them in **Qdran[...] 
 
+
 ---
 
 ## ⚡ Core Features

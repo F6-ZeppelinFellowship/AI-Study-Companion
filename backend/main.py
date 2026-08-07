@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.generator import router as generator_router
 from app.api.upload import router as upload_router
+from app.api.vector import router as vector_router
 
 app = FastAPI(
     title="AI Study Companion API",
@@ -19,6 +20,10 @@ app.add_middleware(
 
 app.include_router(generator_router, prefix="/api")
 app.include_router(upload_router, prefix="/api/v1")
+app.include_router(
+    vector_router,
+    prefix="/api/v1",
+)
 
 @app.get("/", tags=["Health"])
 def health_check():
