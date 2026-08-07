@@ -2,7 +2,7 @@
 
 A Retrieval-Augmented Generation (RAG) platform built for the **AI & Generative AI Fellowship (Week 3 Project)**. 
 
-The AI Study Companion allows users to upload course materials (syllabi, lecture notes, textbook excerpts), automatically chunks and converts the text into vector embeddings, stores them in **Qdrant**, and generates structured, grounded study plans using Gemini/LLM models.
+The AI Study Companion allows users to upload course materials (syllabi, lecture notes, textbook excerpts), automatically chunks and converts the text into vector embeddings, stores them in **Qdran[...] 
 
 ---
 
@@ -179,3 +179,23 @@ npm run dev
 | `POST` | `/api/v1/vector/index` | Generate embeddings and store vectors + payloads into Qdrant. |
 | `POST` | `/api/v1/retrieval/search` | Perform cosine vector similarity search for relevant context. |
 | `POST` | `/api/v1/generator/plan` | Run RAG pipeline to generate a structured JSON study plan. |
+
+---
+
+## ℹ️ Repository Info
+
+- Repository: F6-ZeppelinFellowship/AI-Study-Companion
+- Repo ID: 1316009802
+- Description: A RAG-powered study companion that ingests syllabi/notes, indexes context in Qdrant, and generates structured JSON study plans.
+
+### Latest relevant commit (provided):
+- OID: b3a6496807cd9f2690258e349a80f6fe611bf0a5
+- Message: Revise README for AI Study Companion project
+- Author: ifra817 <ifraahmed817@gmail.com>
+- Permalink: https://github.com/F6-ZeppelinFellowship/AI-Study-Companion/commit/b3a6496807cd9f2690258e349a80f6fe611bf0a5
+
+## 🧭 Language Composition
+
+- TypeScript: 68.3%
+- Python: 31.3%
+- Other: 0.4%
